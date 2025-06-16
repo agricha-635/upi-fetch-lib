@@ -1,10 +1,22 @@
 # UPI Fetch Lib
 
-A simple Android library to fetch installed UPI apps.
+A simple Android library to detect installed UPI apps on the user's device.
 
-## How to use
+## ✨ Features
 
-### Step 1: Clone the repo or add as a submodule
+- Detect UPI apps like PhonePe, Paytm, GPay, etc.
+- Easily open UPI apps via package name
+- Lightweight and fast
 
-```bash
-git submodule add https://github.com/agricha-635/upi-fetch-lib.git
+## 🔧 How to Use
+
+### 1. Add JitPack to your root `settings.gradle.kts`
+
+```kotlin
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven("https://jitpack.io")
+    }
+}
