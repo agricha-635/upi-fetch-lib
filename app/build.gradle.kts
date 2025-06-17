@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-    implementation(libs.upi.fetch.lib)
+    implementation("com.github.agricha-635:upi-fetch-lib:v1.0.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
